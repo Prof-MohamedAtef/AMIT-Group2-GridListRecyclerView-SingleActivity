@@ -38,10 +38,17 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Recycler View"
+                android:text="RView Horizontal"
                 android:padding="5dp"
                 android:layout_margin="5dp"
-                android:id="@+id/btnRecyclerView"/>
+                android:id="@+id/btnRViewHorizontal"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RView Vertical"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:id="@+id/btnRViewVertical"/>
         </LinearLayout>
         <FrameLayout
             android:layout_margin="10dp"
